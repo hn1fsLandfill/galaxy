@@ -71,7 +71,7 @@ config.rotationSpeed = 1.0;
 ## Platform Support
 - **Windows** ✅
 - **Linux** 🖕
-- **MacOS** 🫰❌0️⃣0️⃣0️⃣🫵😂
+- **MacOS** 🫰❌0️⃣0️⃣0️⃣🫵😂 [download](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSziL_UbSIwkRr35AS4NW_Y6LsV4_Svlp4u_w&s)
 
 ## License
 no license do whatever you want
