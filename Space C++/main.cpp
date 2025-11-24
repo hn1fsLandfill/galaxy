@@ -69,7 +69,7 @@ static bool check_linux() {
 	HMODULE ntdll = GetModuleHandle(L"ntdll.dll");
 
 	if (!ntdll)
-		return NULL;
+		return true;
 
 	const char* (CDECL * wine_get_version)(void) = (const char *(*)())GetProcAddress(ntdll, "wine_get_version");
 
