@@ -4,11 +4,15 @@
 #ifdef _WIN32
 #define NOMINMAX
 #include <windows.h>
+#else
+#include <stb_easy_font.h>
 #endif
 
 namespace FontRenderer {
 	static GLuint fontBase = 0;
+#ifdef _WIN32
 	static HDC hDC = nullptr;
+#endif
 
 	void initFont() {
 #ifdef _WIN32
